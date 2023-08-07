@@ -11,11 +11,14 @@ Dataset: https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews?sele
 
 This analysis will analyse the rating score of 5.0 and 1.0, allowing us to notify the frequently appearing word associated with a high rating score of 5.0 and a low rating score of 1.0.
 
+# Example Result
+
 Word Cloud Result for Mr Job (Rating 5)
 ![Image](IST3134%20Assignment/Hive%20and%20MrJob/Wordcloud/Rplot_MrJob%20(Rating%205).png)
 
 
-Word Cloud Result for MrJob (Rating 1)
+Word Cloud Result for Spark (Rating 1)
+![Image](IST3134%20Assignment/Spark/Wordcloud/Rplot_spark%20(Rating%201).png)
 
 
 
