@@ -1,4 +1,4 @@
-# IST3134
+# IST3134 Big Data Analytics In The Cloud
 Big Data - Individual Assignment
 
 Student Name: Chin Jie Nee
