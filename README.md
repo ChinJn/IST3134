@@ -1,7 +1,7 @@
 # IST3134
 Big Data - Individual Assignment
 
-Name: Chin Jie Nee
+Student Name: Chin Jie Nee
 
 Student ID: 19043678
 
