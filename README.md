@@ -15,12 +15,11 @@ This analysis will analyse the rating score of 5.0 and 1.0, allowing us to notif
 
 ### Word Cloud Result for Mr Job (Rating 5)
 
-![Image](IST3134%20Assignment/Hive%20and%20MrJob/Wordcloud/Rplot_MrJob%20(Rating%205).png)
-
+<img src="IST3134%20Assignment/Hive%20and%20MrJob/Wordcloud/Rplot_MrJob%20(Rating%205).png" alt="Word Cloud Mr Job (Rating 5)" style="width:500px;">
 
 ### Word Cloud Result for Spark (Rating 1)
 
-![Image](IST3134%20Assignment/Spark/Wordcloud/Rplot_spark%20(Rating%201).png)
+<img src="IST3134%20Assignment/Spark/Wordcloud/Rplot_spark%20(Rating%201).png" alt="Word Cloud Spark (Rating 1)" style="width:500px;">
 
 
 
