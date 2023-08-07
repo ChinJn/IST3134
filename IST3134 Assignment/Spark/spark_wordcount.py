@@ -16,21 +16,21 @@ sc = spark.sparkContext
 
 start_time = time.time()
 
-review4_rdd = sc.textFile("hdfs:///1_title_reviews")
-review4_rdd = review4_rdd.map(lambda x: re.sub(r'\t', '', x))
-review4_rdd = review4_rdd.map(lambda x: re.sub(r'[^\w\s]', '', x))
+review1_rdd = sc.textFile("hdfs:///1_title_reviews")
+review1_rdd = review1_rdd.map(lambda x: re.sub(r'\t', '', x))
+review1_rdd = review1_rdd.map(lambda x: re.sub(r'[^\w\s]', '', x))
 
-review4_rdd = review4_rdd.flatMap(lambda line: line.split(" "))
-review4_rdd = review4_rdd.filter(lambda x: x != '')
+review1_rdd = review1_rdd.flatMap(lambda line: line.split(" "))
+review1_rdd = review1_rdd.filter(lambda x: x != '')
 
 # Remove stopwords using NLTK
 stop_words = set(stopwords.words('english'))
-review4_rdd = review4_rdd.filter(lambda x: x.lower() not in stop_words)
+review1_rdd = review1_rdd.filter(lambda x: x.lower() not in stop_words)
 
-review4_count = review4_rdd.map(lambda word: (word, 1))
-review4_wc = review4_count.reduceByKey(lambda x, y: (x + y))
+review1_count = review1_rdd.map(lambda word: (word, 1))
+review1_wc = review1_count.reduceByKey(lambda x, y: (x + y))
 
-review4_wc.saveAsTextFile('hdfs:///wc1spark')
+review1_wc.saveAsTextFile('hdfs:///wc1spark')
 
 # Show RunTime
 end_time = time.time()
