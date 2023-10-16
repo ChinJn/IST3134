@@ -7,7 +7,7 @@ Dataset: [Amazon Books Reviews Dataset](https://www.kaggle.com/datasets/mohamedb
 
 ## Project Overview
 
-In this project, we aim to:
+This project aim to:
 
 1. Explore and understand the dataset.
 2. Preprocess the data for analysis.
