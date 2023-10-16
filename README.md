@@ -1,15 +1,24 @@
 # IST3134 Big Data Analytics In The Cloud
-Big Data - Individual Assignment
+# Amazon Books Reviews Analysis
 
-**Student Name:** Chin Jie Nee
+This project focuses on analyzing Amazon book reviews to identify frequently appearing words associated with high rating scores of 5.0 and low rating scores of 1.0. The dataset used for this analysis is available on Kaggle at the following link:
 
-**Student ID:** 19043678
+Dataset: [Amazon Books Reviews Dataset](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews?select=Books_rating.csv)
 
-**Lecture:** Prof Lau Sian Lun
+## Project Overview
 
-**Dataset:** https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews?select=Books_rating.csv
+In this project, we aim to:
 
-**This analysis will analyse the rating score of 5.0 and 1.0, allowing us to notify the frequently appearing word associated with a high rating score of 5.0 and a low rating score of 1.0.**
+1. Explore and understand the dataset.
+2. Preprocess the data for analysis.
+3. Analyze the frequently appearing words associated with high rating scores (5.0) and low rating scores (1.0).
+4. Visualize the results for better understanding.
+5. Provide insights into the words commonly found in each rating category.
+
+## Dataset Description
+
+The dataset contains information about Amazon book reviews, including the text of the reviews and the corresponding rating scores. The main dataset file is `Books_rating.csv`.
+
 
 # Example Result
 
