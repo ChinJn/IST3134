@@ -20,7 +20,7 @@ This project aim to:
 The dataset contains information about Amazon book reviews, including the text of the reviews and the corresponding rating scores. The main dataset file is `Books_rating.csv`.
 
 
-# Example Result
+# Result
 
 ### Word Cloud Result for Mr Job (Rating 5)
 
